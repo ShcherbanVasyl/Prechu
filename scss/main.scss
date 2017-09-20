@@ -3,7 +3,7 @@
 
 * {
   box-sizing: border-box;
-  border: 1px solid red;
+  //border: 1px solid red;
 }
 
 body {
@@ -153,6 +153,7 @@ body {
   align-items: center;
   width: 100%;
   height: 480px;
+  outline: none;
 }
 
 .slick-text {
@@ -210,8 +211,45 @@ body {
     height: 124px;
   }
 
-  .slick-info {
-    display: none;
+  .sl {
+    height: 124px;
+    outline: none;
+
+    img {
+      width: 90px;
+      height: 105px;
+    }
+  }
+
+  .slick-text {
+    margin-left: 20px;
+
+    h2 {
+      font-size: 15.35px;
+    }
+
+    p {
+      font-size: 10.35px;
+      margin-top: 10px;
+      line-height: 1.6;
+    }
+
+    a {
+      width: 80px;
+      border-radius: 1px;
+      margin-top: 10px;
+      padding: 2px;
+
+      p {
+        font-size: 10.35px;
+        margin-left: 5px;
+        margin-top: -1px;
+      }
+
+      i {
+        font-size: 10px;
+      }
+    }
   }
 }
 
