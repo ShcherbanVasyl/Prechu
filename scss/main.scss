@@ -171,6 +171,21 @@ body {
   height: 480px;
 }
 
+.slick-prev:before
+{
+    content: url(../img/prev.png) !important;
+}
+
+.slick-next:before
+{
+    content: url(../img/next.png) !important;
+}
+
+.slick-prev,
+.slick-next {
+  top: 45% !important;
+}
+
 .slick-initialized .slick-slide {
   display: flex;
 }
@@ -214,6 +229,7 @@ body {
     text-decoration: none;
     border-radius: 1px;
     margin-top: 15px;
+    padding: 5px;
 
     &:hover {
       background-color: #126ded;
@@ -227,6 +243,7 @@ body {
     }
 
     i {
+      font-size: 22px;
       color: #fff;
     }
   }
